@@ -8,7 +8,7 @@ import type {
   ListAnime,
 } from "../utils/types";
 
-const BASEURL = "https://otakudesu.ltd";
+const BASEURL = "https://otakudesu.cloud";
 
 export const recentRelease = async (page: number = 1): Promise<ListAnime> => {
   let list: Anime[] = [];

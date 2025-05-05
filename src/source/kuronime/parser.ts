@@ -3,7 +3,7 @@ import cheerio from "cheerio";
 import type { AnimeDetails, Anime, Genre, AnimeVideo, ListAnime } from "../utils/types";
 import decryptor from "./decryptor.js";
 
-const BASEURL = "https://45.12.2.2";
+const BASEURL = "https://kuronime.biz";
 
 export const recentRelease = async (page: number = 1): Promise<ListAnime> => {
   let list: Anime[] = [];

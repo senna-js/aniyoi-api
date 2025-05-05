@@ -17,7 +17,7 @@ app.get("/", async (req, res) => {
   res.send("ANIYOI API IS UP 🚀");
 });
 app.use("/kuramanime", kuramanime);
-app.use("/nanime", nanime);
+// app.use("/nanime", nanime); //Website Not Found!
 app.use("/kuronime", kuronime);
 // app.use("/otakudesu", otakudesu); //Url page streaming memakai slug yang berbeda
 

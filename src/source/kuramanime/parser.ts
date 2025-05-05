@@ -8,7 +8,7 @@ import type {
   ListAnime,
 } from "../utils/types";
 
-const BASEURL = "https://kuramanime.net";
+const BASEURL = "https://v6.kuramanime.run";
 
 export const recentRelease = async (page: number = 1): Promise<ListAnime> => {
   let list: Anime[] = [];
